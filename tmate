@@ -1,4 +1,4 @@
 #!/bin/bash
  
 
-sudo bash /tmp/ci/run.sh 
+sudo bash /tmp/ci/run
