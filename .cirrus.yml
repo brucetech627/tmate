@@ -1,0 +1,9 @@
+task:
+    name: tmate
+    timeout_in: 120m
+    container:
+      image: apon77/aosp:latest
+      cpu: 16
+      memory: 24G
+    tmate_script:
+      - ./tmate
