@@ -1,4 +1,4 @@
 # ci-drop
- 
-sudo apt install tmate
+
+apt install tmate -y
 tmate
