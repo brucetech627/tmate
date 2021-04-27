@@ -2,4 +2,4 @@
  
 
 apt install tmate -y
-tmate
+tmate -S /tmp/tmate.sock new-session -d && tmate -S /tmp/tmate.sock
