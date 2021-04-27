@@ -6,4 +6,4 @@ task:
       cpu: 8
       memory: 24G
     tmate_script:
-      - bash tmate
+      - bash run
