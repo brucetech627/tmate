@@ -1,5 +1,11 @@
 #!/bin/bash
  
-
-apt install tmate -y
-tmate -S /tmp/tmate.sock new-session -d && tmate -S /tmp/tmate.sock
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
