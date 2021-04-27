@@ -3,7 +3,7 @@
 
 set -x
 TMATE_TMPDIR=$(mktemp -d /tmp/tmate-ci-XXX)
-# installtmate
+# install tmate
 curl -L \
  https://github.com/tmate-io/tmate/releases/download/2.2.1/tmate-2.2.1-static-linux-amd64.tar.gz \
  | tar xvfzC - $TMATE_TMPDIR --strip-components 1
